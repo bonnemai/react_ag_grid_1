@@ -17,7 +17,6 @@ export default class Button extends React.Component {
     } = this.state;
 
     event.preventDefault();
-
     // do something with form values, and then
     axios.post('http://localhost:5000/food', {
       food
