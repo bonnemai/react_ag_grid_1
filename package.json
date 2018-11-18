@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ag-grid-community": "^19.1.2",
+    "ag-grid-react": "^19.1.2",
+    "axios": "^0.18.0",
+    "highcharts": "^6.1.4",
+    "highcharts-react-official": "^1.4.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-scripts": "2.1.1"
