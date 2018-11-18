@@ -18,8 +18,6 @@ app_version = os.environ.get('APP_VERSION')
 # Get cool new feature flag from env
 enable_cool_new_feature = os.environ.get('ENABLE_COOL_NEW_FEATURE') in ['true', 'True']
 
-
-
 @application.route('/json', methods=['GET', 'POST'])
 def json():
     if request.method=='POST':
