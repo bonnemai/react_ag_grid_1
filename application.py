@@ -28,8 +28,6 @@ def json():
                    {'col1': random(), 'col2': random(), 'col3': random()}]
         return flask.jsonify(message)
 
-
-
 @application.route('/food', methods=['GET', 'POST'])
 def food():
     message = {'food': 'french'}
